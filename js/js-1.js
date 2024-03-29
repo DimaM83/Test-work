@@ -1,28 +1,40 @@
-const singleBtn = document.querySelector("#single");
+// const singleBtn = document.querySelector("#single");
 
-const handleClick = () => {
-  console.log("click event listener callback");
-};
+// const handleClick = () => {
+//   console.log("click event listener callback");
+// };
 
-singleBtn.addEventListener("click", handleClick);
+// singleBtn.addEventListener("click", handleClick);
 
-// ===============================================
-const multiBtn = document.querySelector("#multiple");
+// // ===============================================
+// const multiBtn = document.querySelector("#multiple");
 
-const firstCallback = () => {
-  console.log("First callback!");
-};
-const secondCallback = () => {
-  console.log("Second callback!");
-};
-const thirdCallback = () => {
-  console.log("Third callback!");
-};
-const addCallback = () => {
-    console.log("12345");
-}
+// const firstCallback = () => {
+//   console.log("First callback!");
+// };
+// const secondCallback = () => {
+//   console.log("Second callback!");
+// };
+// const thirdCallback = () => {
+//   console.log("Third callback!");
+// };
+// const addCallback = () => {
+//     console.log("12345");
+// }
 
-multiBtn.addEventListener("click", firstCallback);
-multiBtn.addEventListener("click", secondCallback);
-multiBtn.addEventListener("click", thirdCallback);
-multiBtn.addEventListener("click", addCallback);
+// multiBtn.addEventListener("click", firstCallback);
+// multiBtn.addEventListener("click", secondCallback);
+// multiBtn.addEventListener("click", thirdCallback);
+// multiBtn.addEventListener("click", addCallback);
+
+
+// const dog = {
+//   name: "Mango",
+//   age: 3,
+//   ostGoodBoy: true,
+// };
+
+// const json = JSON.stringify(dog);
+// console.log(json);
+
+
