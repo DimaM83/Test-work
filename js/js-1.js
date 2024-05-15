@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // console.log('Jacob Mercer');
 // console.log(26);
 
@@ -104,3 +105,33 @@ calculateTotalPrice(8, 60);
 calculateTotalPrice(3, 400);
 calculateTotalPrice(1, 3500);
 calculateTotalPrice(12, 70);
+=======
+// const age = 20;
+// console.log(age);
+
+// const username = 'Mango';
+// console.log(username);
+
+
+
+// let productName = "Droid";
+// productName = "Repair droid";
+
+// let pricePerItem = 2000;
+// pricePerItem = 3500;
+
+
+
+// let username = 'Mando';
+// console.log(username);
+// username = 'Poly';
+// console.log(username);
+
+
+
+const pricePerItem = 3500;
+const orderedQuantity = 4;
+
+const totalPrice = pricePerItem;
+console.log(totalPrice);
+>>>>>>> 0774d292de65a460ec3c6d46ffe4399b76efcec0
