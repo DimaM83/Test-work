@@ -174,3 +174,8 @@
 // console.log(st);
 
 
+function toggleModalVisibility(isVisible) {
+    return !isVisible;
+}
+
+console.log(toggleModalVisibility(true));
