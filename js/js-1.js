@@ -131,9 +131,9 @@
 
 
 
-                         
-                         // HW-1
-                            
+
+// HW-1
+
 // function makeTransaction(quantity, pricePerDroid) {
 //     const totalPrice = quantity * pricePerDroid;
 //     return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
@@ -184,7 +184,7 @@
 
 // function getSubstring(string, length) {
 //  return string.slice(0, length);
-    
+
 // }
 
 // console.log(getSubstring("Hello world", 3));
@@ -203,7 +203,7 @@
 //     return input.toUpperCase()
 // }
 // }
-   
+
 // console.log(normalizeInput("This ISN'T SpaM", "lower"));
 // console.log(normalizeInput("This ISN'T SpaM", "upper"));
 // console.log(normalizeInput("Big SALE", "lower"));
@@ -236,7 +236,7 @@
 //   console.log(checkForName('Caty Stars', 'Caty'));
 //   console.log(checkForName('Caty Stars', 'cAtY'));
 //   console.log(checkForName('Caty Stars', 'Andromeda'));
-  
+
 
 
 
@@ -280,9 +280,9 @@
 
 // function getSubstring(string, length) {
 //     return string.slice(0, length);
-       
+
 //    }
-   
+
 //    console.log(getSubstring("Hello world", 3));
 //    console.log(getSubstring("Hello world", 5));
 //    console.log(getSubstring("Hello world", 8));
@@ -341,7 +341,7 @@
 //     const borderWidth = Number.parseFloat(border) * 2;
 
 //     const totalWidth = contentWidth + paddingWidth + borderWidth;
-  
+
 //     return totalWidth;
 // }
 
@@ -392,7 +392,7 @@
 //         return input.toLowerCase();
 //     } else 
 //         return input.toUpperCase();
-    
+
 // }
 
 // console.log(normalizeInput("This ISN'T SpaM", "lower"));
@@ -412,7 +412,7 @@
 // let number;
 
 // for (let i = start; i <= end; i++) {
-    
+
 //     if (i % 5 === 0) {
 //         number = i;
 //         break;
@@ -480,7 +480,7 @@
 //     const lowerCaseMessage = message.toLowerCase();
 
 //     return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
-    
+
 // }
 
 // console.log(checkForSpam("Latest technology news")); // false
@@ -510,7 +510,7 @@
 //         case "Jamaica":
 //             price = 120;
 //             break;
-            
+
 //         default:
 //             return "Sorry, there is no delivery to your country";
 //         }
@@ -586,7 +586,7 @@
 // function getLengt(array) {
 //    array = array.join("");
 //     return array.length;
-    
+
 // }
 
 // console.log(getLengt(["Mango", "hurries", "to", "the", "train"]));
@@ -598,7 +598,7 @@
 // function calculateEngravingPrice(message, pricePerWord) {
 //     const words = message.split(" ");
 //     const lengthWords = words.length;
-    
+
 //     return lengthWords * pricePerWord;
 //     }
 
@@ -697,7 +697,7 @@
 
 // function sayHi() {
 //     console.log('Hello, this is my first function!');
-    
+
 // }
 // sayHi();
 
@@ -729,8 +729,8 @@
 //     const parseBorder = parseFloat(border);
 
 //     return parseContent + (parsePadding * 2) + (parseBorder * 2)
-    
-    
+
+
 // }
 
 // console.log ( getElementWidth ( "50px" , "8px" , " 4px" )); // 74
@@ -740,15 +740,18 @@
 
 
 
-function getprice(subscription) {
-    let price = 0;
+// function getprice(subscription) {
+//     let price = 0;
 
-    if (subscription === 'pro';) {
-        price = 100;
-    }
-    return price;
-}
+//     if (subscription === 'pro') {
+//         price = 100;
+//     }
+//     return price;
+// }
 
-console.log(getprice('free'));
-console.log(grtprice('pro'));
+// console.log(getprice('free'));
+// console.log(grtprice('pro'));
+
+
+
 
