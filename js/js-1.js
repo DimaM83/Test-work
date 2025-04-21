@@ -105,8 +105,12 @@
 // const totalPrice = pricePerItem;
 // console.log(totalPrice);
 
-// HW-1
 
+
+
+                         
+                         // HW-1
+                            
 // function makeTransaction(quantity, pricePerDroid) {
 //     const totalPrice = quantity * pricePerDroid;
 //     return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
@@ -194,6 +198,9 @@
 //   console.log(checkForName('Caty Stars', 'Caty'));
 //   console.log(checkForName('Caty Stars', 'cAtY'));
 //   console.log(checkForName('Caty Stars', 'Andromeda'));
+  
+
+
 
 // let count = 0;
 
@@ -585,287 +592,26 @@
 //     const parseBorder = parseFloat(border);
 
 //     return parseContent + (parsePadding * 2) + (parseBorder * 2)
-
+    
+    
 // }
 
 // console.log ( getElementWidth ( "50px" , "8px" , " 4px" )); // 74
 //  console.log ( getElementWidth ( " 60px" , "12px" , "8.5px" )); // 101
 // console.log (getElementWidth( "200px" , "0px" , "0px" )); // 200
 
-// function getprice(subscription) {
-//     let price = 0;
-
-//     if (subscription === 'pro';) {
-//         price = 100;
-//     }
-//     return price;
-// }
-
-// console.log(getprice('free'));
-// console.log(grtprice('pro'));
-
-// function getSubscritionPrice(type) {
-//     switch (type) {
-//         case 'professional':
-//             return 20;
-//         case 'organization':
-//             return 50;
-//         case 'starter':
-//             return 0;
-//         case 'random':
-//         case 'premium':
-//         default:
-//             return "Invalid subscription type!";
-//         }
-// }
-
-// console.log(getSubscritionPrice('professional'));
-// console.log(getSubscritionPrice('organization'));
-// console.log(getSubscritionPrice('starter'));
-// console.log(getSubscritionPrice('random'));
-// console.log(getSubscritionPrice('premium'));
-
-// let age = 25;
-// let hasTicket = true;
-
-// if (age >= 18 && hasTicket) {
-//   console.log("Можете войти!");
-// } else {
-//   console.log("Вход запрещен!");
-// }
-
-// const screenWidth = 700;
-// const sm = 320;
-// const md = 768;
-// const lg = 1200;
-
-// if (screenWidth <= sm) {
-//   console.log("Mobile screen");
-// } else if (screenWidth > sm && screenWidth <= md) {
-//   console.log("Tablet screen");
-// } else if (screenWidth > md && screenWidth <= lg) {
-//   console.log("Desktop screen");
-// } else {
-//   console.log("Godzilla screen");
-// }
-
-// function getScreenType(screenWidth) {
-//   const sm = 320;
-//   const md = 768;
-//   const lg = 1200;
-
-//   if (screenWidth <= sm) {
-//     return "Mobile screen";
-//   } else if (screenWidth > sm && screenWidth <= md) {
-//     return "Tablet screen";
-//   } else if (screenWidth > md && screenWidth <= lg) {
-//     return "Desktop screen";
-//   } else {
-//     return "Godzilla screen";
-//   }
-// }
-
-// console.log(getScreenType(700));  // "Tablet screen"
-// console.log(getScreenType(1200)); // "Desktop screen"
-// console.log(getScreenType(1500)); // "Godzilla screen"
-// console.log(getScreenType(320));  // "Mobile screen"
-
-// function isNumberInRange(start, end, number) {
-//     return number >= start && number <= end;
-
-// }
-
-// console.log(isNumberInRange(10, 30, 17));
-// console.log(isNumberInRange(10, 30, 5));
-// console.log(isNumberInRange(20, 50, 24));
-// console.log(isNumberInRange(20, 50, 76));
-
-// function checkAccess(subType) {
-//     return subType === 'pro' || subType === 'vip';
-// }
-
-// console.log(checkAccess('pro'));
-// console.log(checkAccess('starter'));
-// console.log(checkAccess('vip'));
-// console.log(checkAccess('free'));
-
-// function toggleModalVisibility(isVisible) {
-//     return !isVisible;
-// }
-
-// console.log(toggleModalVisibility(true));
-// console.log(toggleModalVisibility(false));
-
-// const message = 'Auto';
-// console.log(message.length);
-
-// function getSubstring(string, length) {
-//     return string.slice(0,length);
-// }
-
-// console.log(getSubstring('Hello world', 3));
-// console.log(getSubstring('Hello world', 5));
-// console.log(getSubstring('Hello world', 8));
-// console.log(getSubstring('Hello world', 11));
-// console.log(getSubstring('Hello world', 0));
-
-// function normalizeInput(input, to) {
-//     if (to === "lower") {
-//        return input.toLowerCase()
-//     } else {
-//         return input.toUpperCase()
-//     }
-// }
-
-// console.log(normalizeInput("This ISN'T SpaM", "lower"));
-// console.log(normalizeInput("This ISN'T SpaM", "upper"));
-// console.log(normalizeInput("Big SALE", "lower"));
-// console.log(normalizeInput("Big SALE", "upper"));
-// console.log(normalizeInput("Stay Awhile and Listen", "lower"));
-// console.log(normalizeInput("Stay Awhile and Listen", "upper"));
-
-// function checkForName(fullName, firstName) {
-// return fullName.includes(firstName)
-// }
-
-// console.log(checkForName("Jason Neis", "Jason"));
-// console.log(checkForName("Jason Neis", "jAsOn"));
-// console.log(checkForName("Jason Neis", "Jacob"));
-// console.log(checkForName("Caty Stars", "Caty"));
-// console.log(checkForName("Caty Stars", "cAtY"));
-// console.log(checkForName("Caty Stars", "Andromeda"));
-
-// function checkFileExtension(fileName, ext) {
-//     if (fileName.endsWith(ext)) {
-//     return "File extension matches";
-// } else {
-
-//     return "File extension does not match";
-// }
-// }
-
-// console.log(checkFileExtension("styles.css", ".css"));
-// console.log(checkFileExtension("styles.css", ".js"));
-// console.log(checkFileExtension("app.js", ".js"));
-// console.log(checkFileExtension("app.js", ".html"));
-// console.log(checkFileExtension("index.html", ".html"));
-// console.log(checkFileExtension("index.html", ".css"));
-// console.log(checkFileExtension("index.html", ".js"));
-
-// function getFileName(file) {
-//     const index = file.lastIndexOf('.');
-
-//     if (index !== -1) {
-//         return file.slice(0, index)
-//     } else {
-//         return file;
-//     }
-// }
-
-// console.log(getFileName("styles.css"));
-// console.log(getFileName("app.js"));
-// console.log(getFileName("app"));
-// console.log(getFileName("index.js"));
-// console.log(getFileName("index.html"));
-// console.log(getFileName("index.css"));
-// console.log(getFileName("index"));
 
 
 
-// function getPrice(subscription) {
-//   let price = 0;
+function getprice(subscription) {
+    let price = 0;
 
-//   if (subscription === "pro") {
-//     price = 100;
-//   }
-//   return price;
-// }
+    if (subscription === 'pro';) {
+        price = 100;
+    }
+    return price;
+}
 
-// console.log(getPrice("free"));
-// console.log(getPrice("pro"));
-
-
-
-// function checkAge(age) {
-//     if (age >= 18) {
-//         return 'You are an adult';
-//     }
-// }
-
-// console.log(checkAge(20));
-// console.log(checkAge(17));
-// console.log(checkAge(10));
-// console.log(checkAge(30));
-
-
-
-// function getSubscriptionPrice(type) {
-//     switch (type) {
-
-//         case 'starter':
-//             return 0
-        
-//         case 'professional':
-//             return 20
-        
-//         case 'organization':
-//             return 50
-        
-//         default:
-//             return 'Invalid subscription type!'
-            
-//     }
-// }
-
-// console.log(getSubscriptionPrice('professional'));
-// console.log(getSubscriptionPrice('organization'));
-// console.log(getSubscriptionPrice('starter'));
-// console.log(getSubscriptionPrice('random'));
-// console.log(getSubscriptionPrice('premium'));
-
-
-
-// function checkString(string) {
-//     let isCheck;
-
-//     if (string && 0) {
-//         isCheck = false
-//     }
-//     else { isCheck = true }
-    
-//     return isCheck
-// }
-
-// console.log(checkString('true || false'));
-
-
-
-// let age = 18;
-
-// if (age < 18) {
-//   console.log("Ты ещё слишком молод!");
-// } else if (age === 18) {
-//   console.log("Поздравляю, тебе 18!");
-// } else {
-//   console.log("Ты уже взрослый!");
-// }
-
-
-// const screenWidth = 700;
-// const sm = 320;
-// const md = 768;
-// const lg = 1200;
-
-// if (screenWidth <= sm) {
-//   console.log("Mobile screen");
-// } else if (screenWidth > sm && screenWidth <= md) {
-//   console.log("Tablet screen");
-// } else if (screenWidth > md && screenWidth <= lg) {
-//   console.log("Desktop screen");
-// } else {
-//   console.log("Godzilla screen");
-// }
-
-
-
+console.log(getprice('free'));
+console.log(grtprice('pro'));
 
