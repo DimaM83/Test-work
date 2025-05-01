@@ -105,12 +105,8 @@
 // const totalPrice = pricePerItem;
 // console.log(totalPrice);
 
+// HW-1
 
-
-
-                         
-                         // HW-1
-                            
 // function makeTransaction(quantity, pricePerDroid) {
 //     const totalPrice = quantity * pricePerDroid;
 //     return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
@@ -198,9 +194,6 @@
 //   console.log(checkForName('Caty Stars', 'Caty'));
 //   console.log(checkForName('Caty Stars', 'cAtY'));
 //   console.log(checkForName('Caty Stars', 'Andromeda'));
-  
-
-
 
 // let count = 0;
 
@@ -592,26 +585,154 @@
 //     const parseBorder = parseFloat(border);
 
 //     return parseContent + (parsePadding * 2) + (parseBorder * 2)
-    
-    
+
 // }
 
 // console.log ( getElementWidth ( "50px" , "8px" , " 4px" )); // 74
 //  console.log ( getElementWidth ( " 60px" , "12px" , "8.5px" )); // 101
 // console.log (getElementWidth( "200px" , "0px" , "0px" )); // 200
 
+// function getprice(subscription) {
+//     let price = 0;
+
+//     if (subscription === 'pro') {
+//         price = 100;
+//     }
+//     return price;
+// }
+
+// console.log(getprice('free'));
+// console.log(grtprice('pro'));
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"]
+// }
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"],
+//     owner: {
+//         name: "Henry",
+//         phone: "982-126-1588",
+//         email: "henry.carter@aptmail.com"
+//     }
+// }
+
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   isPublic: true,
+//   rating: 8.38,
+// };
+
+// // const bookRating = book.rating;
+// // console.log(bookRating);
+// const bookGenres = book.genres[1]
+// console.log(bookGenres);
+
+ 
+// const cars = {
+//     model:  "Toyota",
+//     year: 2025,
+//     vin: 9286370592730456,
+//     manufacturer: "Japan",
+// }
+
+// const carsModel = cars.model
+// console.log(carsModel);
+
+// const carsvin = cars.vin
+// console.log(carsvin);
 
 
 
-function getprice(subscription) {
-    let price = 0;
+// const apartment = {
+//     Rating: 4,
+//     Descr: "Spacious apartment in the city center",
+//     Price: 2153,
+//     Tags: ["premium", "promoted", "top"],
+// }
 
-    if (subscription === 'pro';) {
-        price = 100;
-    }
-    return price;
-}
+// const aptRating = apartment.Rating;
+// const aptDescr = apartment.Descr;
+// const atPrice = apartment.Price;
+// const aptTags = apartment.Tags;
 
-console.log(getprice('free'));
-console.log(grtprice('pro'));
 
+// const user = {
+//     name: "Jacques Gluke",
+//     tag: "gluke",
+//     location: {
+//         country: "Jamaica",
+//         city: "Ocho Rios",
+//     },
+//     hobbies: ["swimming", "music", "sci-fi"],
+// };
+
+// const location = user.location
+// console.log(location);
+
+// const country = user.location.country
+// console.log(country);
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// const ownerName = apartment.owner.name;
+// console.log(ownerName);
+
+// const ownerPhone = apartment.owner.phone;
+// console.log(ownerPhone);
+
+// const ownerEmail = apartment.owner.email;
+// console.log(ownerEmail);
+
+// const numberOfTags = apartment.tags.length;
+// console.log(numberOfTags);
+
+// const firstTag = apartment.tags[0];
+// console.log(firstTag);
+
+// const lastTag = apartment.tags[2];
+// console.log(lastTag);
+
+
+
+const book = {
+    title: "Thenlast Kingdom",
+    author: "Bernard Cornwell",
+    genres: ["historical prose", "adventure"],
+    isPublic: true,
+    rating: 8.38,
+};
+
+console.log(book.title);
+console.log(book["title"]);
+
+console.log(book.genres);
+console.log(book["genres"]);
+
+const propKey = "author";
+console.log(book.propKey);
+console.log(book[propKey]);
