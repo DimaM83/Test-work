@@ -719,20 +719,158 @@
 
 
 
-const book = {
-    title: "Thenlast Kingdom",
-    author: "Bernard Cornwell",
-    genres: ["historical prose", "adventure"],
-    isPublic: true,
-    rating: 8.38,
-};
+// const book = {
+//     title: "Thenlast Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["historical prose", "adventure"],
+//     isPublic: true,
+//     rating: 8.38,
+// };
 
-console.log(book.title);
-console.log(book["title"]);
+// console.log(book.title);
+// console.log(book["title"]);
 
-console.log(book.genres);
-console.log(book["genres"]);
+// console.log(book.genres);
+// console.log(book["genres"]);
 
-const propKey = "author";
-console.log(book.propKey);
-console.log(book[propKey]);
+// const propKey = "author";
+// console.log(book.propKey);
+// console.log(book[propKey]);
+
+
+// const user = {
+//   name: "Alice",
+//   age: 30,
+//   country: "Germany",
+// };
+
+// const keyName = "name";
+// // console.log(user[keyName]);
+// console.log(user.keyName);
+
+
+// const user = {
+//     firstName: "Lacob",
+//     lastName: "merser"
+// }
+// console.log(user["firstName"]);
+// console.log(user.firstName);
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// apartment.rating = 4.7;
+// apartment.price = 5000;
+// apartment.name = "Henry Sibola";
+// // apartment.tags.push("trusted");
+// apartment.tags = ["premium", "promoted", "top", "trusted"]
+// // console.log(apartment.tags);
+// apartment.ratings = 3000;
+// console.log(apartment.ratings);
+
+
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   generes: ["historical prose", "adventure"],
+//   isPublic: true,
+//   rating: 8.38,
+// };
+
+// book.pageCount = 836;
+// book.originalLanguage = "en";
+// book.translations = ["ua", "ru"];
+// book.price = {
+//     hardcover: 39,
+//     softcover: 29,
+// };
+
+// console.log(book.price.hardcover);
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// apartment.area = 60;
+// apartment.rooms = 3;
+// apartment.location = {
+//     country: "Jamaica",
+//     city: "Kingston",
+// };
+
+// console.log(apartment);
+
+
+
+// const name = "Henry Sibola";
+// const age = 25;
+
+// const user = {
+//     name,
+//     age,
+// };
+
+// console.log(user.name);
+// console.log(user.age);
+
+
+
+// const name = "Repair Droid"
+// const price = 2500
+// const image = "https://via.placeholder.com/640x480";
+// const tags = ["on sale", "trending", "best buy"];
+
+// const product = {
+//     name,
+//     price,
+//     image,
+//     tags,
+// }
+
+// console.log(product);
+
+
+
+// const propName = "name"
+// const user = {
+//     [propName]: "Henry Sibora",
+// }
+
+// console.log(user);
+// console.log(user.name);
+
+
+
+// const emailInputName = "email"
+// const passwordInputName = "password"
+
+// const credentials = {
+//   [emailInputName]: "henry.carter@aptmail.com",
+//   [passwordInputName]: "jqueryismyjam",
+// };
+
+// console.log(credentials.email);
+// console.log(credentials.password);
+
