@@ -1,4 +1,4 @@
-
+"use strict";
 // console.log('Jacob Mercer');
 // console.log(26);
 
@@ -751,6 +751,199 @@
 
 // console.log(getprice('free'));
 // console.log(grtprice('pro'));
+
+
+
+// const users = [
+//     {name: 'Anna', age: 25},
+//     {name: 'Igor', age: 30},
+//     {name: 'Leonid', age: 40}
+// ]
+// for (const user of users) {
+//     console.log(user.name, user.age);
+// }
+
+
+
+// const person = {
+//     name: "Аня",
+//     sayHi() {
+//       console.log(`Привет, я ${name}`);
+//     }
+//   };
+
+//   person.sayHi();
+
+
+
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Stone skin"],
+//     getPotions() {
+//         return this.potions;
+//     }
+// };
+
+
+// console.log(atTheOldToad.getPotions()); // Возвращает ["Speed potion", "Stone skin"]
+
+
+
+
+// function multiply () {
+// 	console .log (arguments)
+// }
+
+// multiply ( 1 , 2 ); // псевдомассив [1, 2] 
+// multiply ( 1 , 2 , 3 ); // псевдомассив [1, 2, 3] 
+// multiply ( 1 , 2 , 3 , 4 ); // псевдомассив [1, 2, 3, 4]
+
+
+
+// function multiply(first, second, ...agrs) {
+//     console.log(first, second, agrs);
+
+// }
+
+// multiply(1, 2)
+// multiply(1, 2, 3)
+// multiply(1, 2, 3, 4)
+// multiply(1,2,3,4,5,6,7,8,9,0)
+
+
+
+
+// function addOverNum(value, ...args) {
+//     let sum = 0;
+
+//     for (const arg of args) {
+//         if (arg > value) {
+//             sum += arg;
+//         }
+//     }
+
+//     return sum;
+// }
+
+// // Проверка работы функции
+// console.log(addOverNum(50, 15, 27)); // Возвращает 0
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); // Возвращает 71
+// console.log(addOverNum(15, 32, 6, 13, 19, 8)); // Возвращает 51
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36)); // Возвращает 218
+
+
+
+// const user = {
+//     email: 'mango@mail.com'
+// }
+
+// console.log(user.email);
+
+
+
+// const userA = {
+//     username: 'Mango',
+//     age: 20
+// }
+// const userB = userA
+// userB.age = 30
+
+// console.log(userA.age, userB.age);
+
+
+
+// function fillArray(min, max) {
+//     let arr = []
+//     for (let i = min; i <= max; i += 2) {
+//         return arr.push(i)
+//     }
+// }
+// console.log(fillArray(2, 10));
+
+
+
+// const playlist = {
+//     name: 'My playlist',
+//     tracks: ['track-1', 'track-1', 'track-3'],
+//     rating: 5,
+//     isFavorit: true
+    
+// }
+// playlist.isFavorit = false
+
+// const myKey = 'isFavorit'
+// console.log(playlist[myKey]);
+
+
+
+
+// const obj = {
+//     name: 'Alice',
+//     age: 25,
+//     skills: {
+//         html: true,
+//         css: true,
+//         js: false
+//     } 
+// }
+// const newObj = obj.skills;
+// console.log(obj.skills.js);
+
+
+
+// const username = 'Alice';
+// const age = 25;
+
+// const user = {
+//     username,
+//     age
+// };
+// console.log(user);
+
+
+
+// const lalala = prompt();
+// console.log(lalala);
+
+
+
+// const feedback = {
+//     good: 5,
+//     neutral: 10,
+//     bad: 3
+// }
+
+// let total = 0;
+
+// for(const key in feedback) {
+//     total += feedback[key]
+
+// }
+// console.log(total);
+
+
+
+// const salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130,
+// };
+
+// function summa(obj) {
+//     let total = 0;
+//     const values = Object.values(obj)
+
+//     for(const value of values) {
+//         total += value;
+//     }
+//     return total
+// }
+
+// console.log(summa(salaries));
+
+
+
+
 
 
 
