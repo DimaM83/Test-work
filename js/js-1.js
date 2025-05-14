@@ -996,3 +996,56 @@
 
 
 
+
+
+// function calculateTotalPrice(quantity, priceitem) {
+//     return quantity * priceitem;
+// }
+
+// const calculateTotalPrice = (quantity, priceitem) => {
+//     return quantity * priceitem
+// }
+
+
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//     return quantity * pricePerItem;
+// }
+
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+// console.log(calculateTotalPrice(10, 20));
+
+
+
+// const promise = new Promise((resolve, reject) => ) {
+    
+// }
+
+
+// const promise = new Promise((resolve, reject) => {
+//   // ждём 2 секунды (как будто готовится пицца)
+//   setTimeout(() => {
+//     resolve("🍕 Пицца готова!");
+//     // или: reject("❌ Пиццу не привезли");
+//   }, 2000);
+// });
+
+// promise
+//   .then(result => console.log(result)) // когда всё хорошо
+//   .catch(error => console.log(error)); // если ошибка
+
+
+
+// axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
+//   console.log(response);
+// });
+
+// const sayHi = (name) => {
+//   return "Привет, " + name;
+// };
+
+// const sayHi = (name) => "Привет " + name;
+// console.log(sayHi("Anna"));
+
+
+
+
