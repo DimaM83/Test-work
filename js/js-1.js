@@ -942,13 +942,57 @@
 // console.log(summa(salaries));
 
 
+// import axios from 'axios';
+
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(response => response.json())
+// .then(json => console.log(json)
+// )
 
 
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-.then(response => response.json())
-.then(json => console.log(json)
-)
+// axios.get('https://api.example.com/data')
+//   .then(response => console.log(response.data))
+//   .catch(error => console.error(error));
+
+
+
+// const dog = {
+//     name: "Mango",
+//     age: 3,
+//     idGoodBoy: true,
+// };
+
+// const json = JSON.stringify(dog);
+// console.log(json);
+
+
+
+// const dog = {
+//     name: "Mango",
+//     age: 3,
+//     isGoodBoy: true,
+//     bark() {
+//         console.log("Woolf!");
+        
+//     }
+// }
+
+// const json = JSON.stringify(dog)
+// console.log(json);
+
+
+
+// try {
+//   const data = JSON.parse("rrrrrrrrrrrr");
+// } catch (error) {
+//   console.log(error.name); // "SyntaxError"
+//   console.log(error.message); // Unexpected token W in JSON at position 0
+// }
+
+// console.log("✅ This is fine, we handled parsing error in try...catch");
+
 
 
 
